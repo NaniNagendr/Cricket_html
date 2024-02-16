@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url("/team\ ipl2.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:scroll;
+            height: 100vh;
+            width: 100%;
+        }
+        #color{
+            background-color: blueviolet;
+            color:white;
+            margin-left: 150px;
+        }
+        #color:hover{
+            background-color: brown;
+            color: black;
+           
+        }
+        .head{
+            text-align: center;
+            color:blueviolet;
+        }
+       label{
+        color:black;
+       }
+       select{
+        color: red;
+       }
+       #state{
+        color: black;
+       }
+       #dob placeholder{
+        margin-right: 500px;
+       }
+#container input{
+    width:150px;
+}
+#container :placeholder-shown{
+width:150px;
+}
+#container select{
+    width:140px;
+}
+#color{
+    padding:10px;
+    width:65px;
+}
+
+    </style>
+</head>
+<body>
+    <form style="margin-left:500px;margin-right:500px;padding:50px;">
+        <fieldset>
+            <div id="container">
+                <div class="head">
+            <p style="font-weight: bolder;color: crimson;"><marquee>REGISTER HERE</marquee></p></div>
+            <label for="name" style="padding:50px;">Name;</label><input type="text"id="name" name="name" placeholder="enter your name here" required><br><br>
+            <label for="age" style="padding:50px;">Age:</label><input type="number" id="age" name="age" placeholder="enter your age here" required><br><br>
+            <label for="dob" style="padding:50px;">DOB:</label><input type="date" id="dob" name="dob" placeholder="enter your date of birth here" required><br><br>
+           
+           <div id="state" style="margin-left: 50px;">
+             Country:<select style="margin-left:32px;">
+                <option>india</option>
+                <option>england</option>
+                <option>newzealand</option>
+                <option>southafrica</option>
+                <option>australia</option>
+             </div>
+            </select><br><br>
+            </div>
+
+
+            <div id="color"?>
+            <button>register</button>
+
+           </div> 
+        </fieldset>
+    </form>
+    
+</body>
+</html>
